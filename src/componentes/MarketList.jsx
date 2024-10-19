@@ -3,7 +3,7 @@ import { Product } from "./Product";
 export const MarketList = ({products}) => {
     return(
         <div>
-            <h1>Lista del super</h1>
+            <h3>Lista del super</h3>
                 {products.map((item,index) =>{
                    return <Product key = {index} name = {item.name} price={item.price} />
                 })}
